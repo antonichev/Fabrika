@@ -1,5 +1,7 @@
 package ua.od.fabrika.antonichev.HW2;
 
+import java.math.BigDecimal;
+import java.util.Formatter;
 import java.util.Scanner;
 
 /**
@@ -34,14 +36,14 @@ public class HW2_task4_Calculator {
                 System.out.println("Result: " + (a - b));
                 break;
             case 3:
-                System.out.println("Result: " + (double) a * b);
+                System.out.println("Result: " + a * b);
                 break;
             case 4:
                 if (b == 0){
                     System.out.println("Error (divisor is zero)");
                 }
                 else {
-                    System.out.println("Result: " + (double) a / b);
+                    System.out.println("Result: " + new BigDecimal(a).setScale(2).divide(new BigDecimal(b), BigDecimal.ROUND_HALF_UP));
                 }
                 break;
             case 5:
