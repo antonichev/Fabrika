@@ -1,12 +1,11 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
 *  Ввести 4-значное число и подсчитать сумму первой и третьей цифры и
 *  разность второй и четвертой цифры.
 */
-
-import java.util.Scanner;
-
 public class HW1_task2_FourDigitNumberOperations {
     public static void main(String[] args) {
         int first, second, third, fourth;

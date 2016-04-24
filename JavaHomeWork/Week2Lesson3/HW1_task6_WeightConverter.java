@@ -1,12 +1,11 @@
-﻿package ua.od.fabrika.antonichev.HW1;
-
-/**
-* Написать программу, которая переводит фунты в килограммы. Один фунт – 405.9 грамма
-* задается в программе как константа. Затем, реализовать обратный перевод – из килограммов в фунты.
-*/
+package ua.od.fabrika.antonichev.HW1;
 
 import java.util.Scanner;
 
+/**
+ * Написать программу, которая переводит фунты в килограммы. Один фунт – 405.9 грамма
+ * задается в программе как константа. Затем, реализовать обратный перевод – из килограммов в фунты.
+ */
 public class HW1_task6_WeightConverter {
     public static void main(String[] args) {
         double pound = 0.4059;
@@ -25,10 +24,10 @@ public class HW1_task6_WeightConverter {
 
         switch (choice){
             case 1:
-                System.out.println(weight + " kg = " + pound * weight + " lbs");
+                System.out.println(weight + " kg = " + weight /  pound + " lbs");
                 break;
             case 2:
-                System.out.println(weight + " lbs = " + weight / pound + " kg");
+                System.out.println(weight + " lbs = " + weight * pound + " kg");
                 break;
             default:
                 System.out.println("You entered wrong choice!");

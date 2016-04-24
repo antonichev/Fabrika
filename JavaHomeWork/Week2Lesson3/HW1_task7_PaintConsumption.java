@@ -1,4 +1,6 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
  * Ввести длину, ширину и высоту комнаты. Подсчитать, сколько краски уйдет на покраску
@@ -6,9 +8,6 @@
  * стен занимают окна и двери. Также, рассчитать общую стоимость краски, с учётом того,
  * что один литр краски стоит R гривен.
  */
-
-import java.util.Scanner;
-
 public class HW1_task7_PaintConsumption {
     public static void main(String[] args) {
 
@@ -32,7 +31,7 @@ public class HW1_task7_PaintConsumption {
         System.out.println("Please enter price of paint (UAH):");
         price = input.nextDouble();
 
-        if (length <= 0 || height <= 0 || width <= 0){
+        if (length <= 0 || height <= 0 || width <= 0 || door_window <= 0){
             System.out.println("Error! (incorrect data)");
         }
         else {

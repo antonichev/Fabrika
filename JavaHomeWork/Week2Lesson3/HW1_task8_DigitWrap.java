@@ -1,11 +1,10 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
 * Ввести с клавиатуры 3-значное число и «перевернуть» его (например, ввести 357 – получить и вывести 753).
 */
-
-import java.util.Scanner;
-
 public class HW1_task8_DigitWrap {
     public static void main(String[] args) {
         int first, middle, last;

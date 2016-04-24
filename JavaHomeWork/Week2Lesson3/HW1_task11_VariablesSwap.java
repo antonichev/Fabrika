@@ -1,4 +1,4 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
 
 import java.util.Scanner;
 

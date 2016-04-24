@@ -1,12 +1,11 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
  * Ввести пятизначное число и сдвинуть его циклически вправо на 2 разряда
  * (например, если число равно 12345 – вывести на экран 45123).
  */
-
-import java.util.Scanner;
-
 public class HW1_task9_CircularShift {
     public static void main(String[] args) {
         int first, second, third, forth, fifth;

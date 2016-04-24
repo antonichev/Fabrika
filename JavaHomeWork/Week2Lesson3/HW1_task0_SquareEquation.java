@@ -1,11 +1,10 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
 * Решение квадратного уравнения через дискриминант
 */
-
-import java.util.Scanner;
-
 public class HW1_task0_SquareEquation {
 
     public static void main(String[] args) {

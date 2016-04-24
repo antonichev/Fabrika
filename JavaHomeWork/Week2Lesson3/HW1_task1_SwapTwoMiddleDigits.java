@@ -1,12 +1,11 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.util.Scanner;
 
 /**
 * Ввести с клавиатуры два 3-значных числа и поменять у них средние цифры
 * (например, ввести 357  и 702 – получить и вывести числа  307 и 752).
 */
-
-import java.util.Scanner;
-
 public class HW1_task1_SwapTwoMiddleDigits {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-﻿package ua.od.fabrika.antonichev.HW1;
+package ua.od.fabrika.antonichev.HW1;
+
+import java.math.BigDecimal;
 
 /**
  * Рассчитать общую массу всех планет Солнечной системы. Вычислить среднее арифметическое масс планет.
@@ -7,9 +9,6 @@
  * Все результаты – показать на экране.
  * Рекомендуется использование типа BigDecimal.
  */
-
-import java.math.BigDecimal;
-
 public class HW1_task10_PlanetsMass {
     public static void main(String[] args) {
         //http://www.universetoday.com/34024/mass-of-the-planets/
