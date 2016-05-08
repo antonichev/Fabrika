@@ -89,7 +89,7 @@ public class HW4_task11_OhLucky {
             hint = "";
 
             if (HELP) hint += "9 - помощь зала";
-            if (FIFTY_FIFTY) hint += " 0 - помощь зала";
+            if (FIFTY_FIFTY) hint += " 0 - 50 на 50";
             if (!HELP && !FIFTY_FIFTY) hint += "нет подсказок";
 
             System.out.println();

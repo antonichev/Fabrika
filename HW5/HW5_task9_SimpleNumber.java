@@ -21,10 +21,14 @@ public class HW5_task9_SimpleNumber {
             for (int i = 1; i <= number; i++) {
                 if (number % i == 0) {
                     count++;
+
+                    if (count > 2) {
+                        System.out.println("Number is not simple");
+                        break;
+                    }
                 }
             }
-            if (count > 2) System.out.println("Number is not simple");
-            else System.out.println("Number is simple");
+            if (count <= 2) System.out.println("Number is simple");
         }
     }
 }

@@ -14,7 +14,7 @@ public class HW3_task15_FDD {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter volume of one movie (Gb):");
-        double volume = input.nextDouble() * 1000;
+        double volume = input.nextDouble() * 1024;
 
         if (volume <= 0){
             System.out.println("Error! Wrong data");

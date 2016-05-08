@@ -12,9 +12,8 @@ public class HW3_task12_Round {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter decimal number:");
-        BigDecimal number = input.nextBigDecimal();
+        double number = input.nextDouble();
 
-        if (number.doubleValue() <= 0) System.out.println("Error! Wrong data");
-        else System.out.println("Result: " + number.setScale(2, BigDecimal.ROUND_HALF_UP));
+        System.out.println("Result: " + Math.round(number * 100.0) / 100.0);
     }
 }

@@ -17,7 +17,7 @@ public class HW3_task8_WorkingHours {
         System.out.println("Enter time from working day starts in seconds:");
         int hours = input.nextInt() / 60 / 60;
 
-        if (hours <= 0) System.out.println("Error! Wrong data");
+        if (hours < 0 || hours > 8) System.out.println("Error! Wrong data");
         else System.out.println("You have to stay at office " + (totalHours - hours) + " hour(s)");
     }
 }

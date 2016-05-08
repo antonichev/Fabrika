@@ -12,20 +12,14 @@ public class HW5_task5_Factorial {
         System.out.println("Enter value:");
         int value = input.nextInt();
 
-        if (value > 16 || value < -16){
-            System.out.println("Error! Value too big");
+        if (value > 16 || value < 0){
+            System.out.println("Error! Value either too big or less 0");
         }
         else {
             int fact = (value == 0) ? 0 : 1;
 
-            if (value > 0) {
-                for (int i = 1; i <= value; i++) {
-                    fact *= i;
-                }
-            } else {
-                for (int i = -1; i >= value; i--) {
-                    fact *= i;
-                }
+            for (int i = 1; i <= value; i++) {
+                fact *= i;
             }
             System.out.println(value + "! = " + fact);
         }

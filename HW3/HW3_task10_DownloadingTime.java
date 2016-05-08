@@ -12,7 +12,7 @@ public class HW3_task10_DownloadingTime {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter size of one movie (Gb):");
-        double weight = input.nextDouble() * 1024 * 1024 * 1024;
+        double weight = input.nextDouble() * 1024 * 1024 * 1024 * 8;
 
         System.out.println("Enter width of your internet connection (bit/s):");
         int width = input.nextInt();

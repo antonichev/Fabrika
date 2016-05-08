@@ -23,7 +23,7 @@ public class HW4_task1_ParallelStraight {
         int y2 = input.nextInt();
 
         if (x1 == x2 && y1 == y2){
-            System.out.println("Error! Wrong data");
+            System.out.println("It's a point actually");
         }
         else {
             if (x1 == x2){
