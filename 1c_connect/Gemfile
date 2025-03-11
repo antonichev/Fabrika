@@ -1,6 +1,0 @@
-source 'https://rubygems.org'
-
-gem 'win32ole-pp'
-gem 'sinatra'
-gem 'erubis'
-gem 'puma'
